@@ -16,8 +16,8 @@ setup(
     long_description = read('README.rst'),
     url = 'https://github.com/fcurella/django-markup-deprecated',
     license = 'BSD',
-    mainteiner = 'Flavio Curella',
-    mainteiner_email = 'flavio.curella@gmail.com',
+    maintainer = 'Flavio Curella',
+    maintainer_email = 'flavio.curella@gmail.com',
     packages = find_packages(exclude=['tests']),
     include_package_data = True,
     classifiers = [
