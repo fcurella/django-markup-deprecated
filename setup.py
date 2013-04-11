@@ -10,7 +10,7 @@ def read(fname):
 requirements = []
 
 setup(
-    name = "Django Markup Deprecated",
+    name = "django-markup-deprecated",
     version = ".".join(map(str, __version__)),
     description = "Original django.contrib.markup from Django 1.4.1.",
     long_description = read('README.rst'),

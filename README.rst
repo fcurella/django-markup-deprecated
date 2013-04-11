@@ -8,6 +8,14 @@ Django 1.6, which deprecates the app.
 
 For new projects, you may want to use something like `Django Markup Field <https://github.com/jamesturk/django-markupfield>`_ instead.
 
+Installation
+------------
+
+This package is also available on PyPI.
+::
+
+    $ pip install django-markup-deprecated
+
 Usage
 -----
 
