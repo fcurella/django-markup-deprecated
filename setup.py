@@ -1,7 +1,7 @@
 import os
 from setuptools import setup, find_packages
 
-from markup_deprecated import __version__
+__version__ = "0.0.1"
 
 
 def read(fname):
@@ -11,7 +11,7 @@ requirements = []
 
 setup(
     name = "django-markup-deprecated",
-    version = ".".join(map(str, __version__)),
+    version = __version__,
     description = "Original django.contrib.markup from Django 1.4.1.",
     long_description = read('README.rst'),
     url = 'https://github.com/fcurella/django-markup-deprecated',
