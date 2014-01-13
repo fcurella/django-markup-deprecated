@@ -1,0 +1,6 @@
+django>=1.5
+coverage
+django_coverage
+markdown
+docutils
+textile

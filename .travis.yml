@@ -1,0 +1,9 @@
+language: python
+install:
+  - pip install -r TEST-REQUIREMENTS.txt
+before_script:
+  - "export PYTHONPATH=$TRAVIS_BUILD_DIR:$PYTHONPATH;"
+python:
+  - "2.6"
+  - "2.7"
+script: python runtests.py
