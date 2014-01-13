@@ -1,3 +1,4 @@
 .env
+.autoenv
 *.pyc
 .DS_Store
