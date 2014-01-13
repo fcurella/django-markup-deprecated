@@ -41,7 +41,7 @@ Paragraph 2 with a link_
 
     def setUp(self):
         self.save_warnings_state()
-        warnings.filterwarnings('ignore', category=DeprecationWarning, module='django.contrib.markup')
+        warnings.filterwarnings('ignore', category=DeprecationWarning, module='markup_deprecated')
 
     def tearDown(self):
         self.restore_warnings_state()
