@@ -23,6 +23,13 @@ Add ``'markup_deprecated'`` to your ``INSTALLED_APPS``.
 
 The template library is still called ``markup``, so you can still use ``{% load markup %}`` in your templates.
 
+Difference from ``django.contrib.markup``
+-----------------------------------------
+
+Settings
+~~~~~~~~
+This package adds an optional ``DJANGO_MARKUP_IGNORE_WARNINGS`` setting, that can be used to silence the warnings. Defaults to ``False``.
+
 Support
 -------
 
