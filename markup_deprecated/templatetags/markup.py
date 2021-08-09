@@ -68,10 +68,10 @@ def markdown(value, arg=''):
             if extensions and extensions[0] == "safe":
                 extensions = extensions[1:]
                 return mark_safe(markdown.markdown(
-                    force_text(value), extensions, safe_mode=True, enable_attributes=False))
+                    force_text(value), extensions=extensions, safe_mode=True, enable_attributes=False))
             else:
                 return mark_safe(markdown.markdown(
-                    force_text(value), extensions, safe_mode=False))
+                    force_text(value), extensions=extensions, safe_mode=False))
 
 @register.filter(is_safe=True)
 def restructuredtext(value):
